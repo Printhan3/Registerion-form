@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+ #root {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+ flex-wrap: wrap;
+ min-height: 100vh;
+ margin: 0;
+} 
+
+.container {
+    font-family: "Inter", sans-serif; 
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+input[type="number"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  gap: 5px;
+}
+
+.gender {
+  margin-bottom: 10px;
+}
+
+.gender label {
+  margin-right: 10px;
+}
+
+   
+
+
+input[type="checkbox"] {
+  margin-right: 5px;
+ 
+}
+
+form{
+  width: 250px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.select-country {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  
+  textarea {
+    margin-bottom: 20px;
+    width: 150%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; 
+  } 
+ 
+
+
